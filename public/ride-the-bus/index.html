@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride The Bus</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quad">
+            <div class="quad-section">
+                <span style="padding: 1%;">Sequence</span>
+                <span id="sequence" style="font-size: 30pt;">0</span>
+            </div>
+            <div class="quad-section">
+                <span style="padding: 1%;">Score</span>
+                <span id="score" style="font-size: 30pt;">0</span>
+            </div>
+        </div>
+
+        <div class="cardsContainer">
+            <img class="cards" src='./playing-cards/Back Covers/Emerald.png'>
+            <img class="cards" id="curr" src='./playing-cards/Back Covers/Peter River.png'>
+            <img class="cards" id="last" src='./playing-cards/Back Covers/Sun Flower.png'>
+        </div>
+
+        <div id="cs" class="choices">
+            <span id="r1ch" style="display: none;" class="choice"></span>
+            <span id="r2ch" style="display: none;" class="choice"></span>
+            <span id="r3ch" style="display: none;" class="choice"></span>
+            <span id="r4ch" style="display: none;" class="choice"></span>
+        </div>
+    </div>
+</body>
+</html>
