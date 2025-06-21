@@ -56,7 +56,7 @@ const ChessBSolo = () => {
     loadPGN(examplePGN); // Load PGN when the component mounts
   }, []);
 
-  // Example PGN, replace with your own
+ 
   const examplePGN = `
     1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 d5 6. exd5 Nxd5 7. Nxc6 bxc6
     8. Qf3 Bb4 9. Bd2 Qe7+ 10. Be2 O-O 11. O-O Re8 12. Rfe1 Bxc3 13. bxc3 Qd7 14. c4

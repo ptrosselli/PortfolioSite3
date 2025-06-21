@@ -9,6 +9,13 @@ const FeaturedProjects = () => {
                 Featured Projects
             </div>
             <div className="flex flex-wrap justify-center gap-8">
+                <Card
+                    image={"cartoonme.png"}
+                    title="Chess Clone"
+                    description="A Chess AI that plays as similar to me as possible."
+                    link="./chessai"
+                    target="_blank"
+                />
                 <Card 
                     image={RTBPreview}
                     title="Ride the Bus Card Game"

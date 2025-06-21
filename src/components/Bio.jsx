@@ -4,7 +4,7 @@ const Bio = () => {
             {/* Left Section: Image */}
             <div className="flex items-center justify-center w-1/3">
                 <img 
-                    src="me.JPG" 
+                    src="GRADPIC.JPG" 
                     alt="Profile" 
                     className="rounded-full w-48 h-48 object-cover border-4 border-matcha"
                 />

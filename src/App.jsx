@@ -8,13 +8,14 @@ import About from './components/About.jsx';
 import Totapp from './components/TotApp.jsx';
 import Projects from './components/Projects.jsx';
 import StudyRoom from './components/studychess/StudyRoom.jsx';
+import ChessAi from './components/chessai/ChessAi.jsx';
 
 const App = () => {
   const location = useLocation();
 
   return (
     <>
-      {location.pathname !== "/chessbsolo" && location.pathname !== "/studychess" && (
+      {location.pathname !== "/chessbsolo" && location.pathname !== "/studychess" && location.pathname !== "/chessai" && (
         <>
           <Header />
           <div className='py-16 top-0 left-0'></div>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/totapp" element={<Totapp />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/studychess" element={<StudyRoom />} />
+        <Route path="/chessai" element={<ChessAi />} />
       </Routes>
     </>
   );

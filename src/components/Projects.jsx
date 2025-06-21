@@ -11,6 +11,14 @@ const Projects = () => {
                     Projects
                 </div>
                 <Project
+                    image={"cartoonme.png"}
+                    title="Chess Clone"
+                    description="A Chess AI that plays as similar to me as possible."
+                    link="./chessai"
+                    target="_blank"
+                >
+                </Project>
+                <Project
                     image={STUDYROOM}
                     title="Chess Openings Study Room"
                     description="Study books moves for given chess positions taken from Modern Chess Openings by Nick de Firmian. Built with React, Chess.js, and Chessboard.js."
